@@ -1,0 +1,94 @@
+#header-title {
+background-image: url(../img/Banner.jpg); 
+background-repeat: no-repeat;
+background-size: 100%;
+opacity: 0.9;
+    
+}
+ .main-title{
+        color:white; 
+        font-family: 'Oswald', sans-serif; 
+        font-size: 8em; 
+        font-weight: bolder;
+    }
+.display-3 {
+        color:white; 
+        font-family: 'Oswald', sans-serif; 
+        font-size: 4em;
+    }
+    #news {
+        background-image: url(/img/itstime6.jpg); background-repeat: no-repeat;
+background-size: 100%;
+opacity: 0.9;
+    }
+@media only screen and (max-width: 1026px) {
+    #header-title {
+        background-image: url(/img/Banner-small.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.9;
+    }
+    .main-title{
+        color:white; 
+        font-family: 'Oswald', sans-serif; 
+        font-size: 5em; 
+        font-weight: bolder;
+    }
+    .display-4 {
+        font-size: 3em;
+    }
+    .display-3 {
+        color:white; 
+        font-family: 'Oswald', sans-serif; 
+        font-size: 3em;
+    }
+    #news {
+        background-image: url(/img/itstime6-small.jpg); background-repeat: no-repeat;
+background-size: 100%;
+opacity: 0.9;
+    }
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 160px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
